@@ -1,16 +1,18 @@
 import os
-import random
 import sys
 
 import django
-from telebot import types
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lgs_bot.settings')
 django.setup()
 
+import random
+
 import telebot
 from environs import Env
+from telebot import types
+
 from lgs.models import *
 
 env = Env()

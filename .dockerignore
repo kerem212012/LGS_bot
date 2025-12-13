@@ -1,0 +1,8 @@
+db.sqlite3
+.env
+.venv
+test.py
+__pycache__
+.gitignore
+media
+.gitattributes
