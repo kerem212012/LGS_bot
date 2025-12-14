@@ -91,20 +91,6 @@ docker-compose up --build
 3. Upload quiz images as needed
 4. The bot service will handle automated interactions based on configured rules
 
-## Testing
-
-Run the test suite:
-
-```bash
-python manage.py test
-```
-
-Or use the included test script:
-
-```bash
-python test.py
-```
-
 ## Database Schema
 
 The application uses SQLite with the following main models:
@@ -129,10 +115,6 @@ Edit `lgs_bot/settings.py` to configure:
 ## Contributing
 
 Follow Django best practices and ensure all tests pass before submitting changes.
-
-## License
-
-[Specify your license here]
 
 ## Support
 
