@@ -35,7 +35,6 @@ LGS_bot/
 
 - Python 3.x
 - Django
-- SQLite3
 - Docker (optional, for containerized deployment)
 
 ## Installation
