@@ -10,7 +10,7 @@ LGS Bot is a comprehensive platform designed to manage quizzes and learning mate
 
 ```
 LGS_bot/
-├── lgs/                      # Main Django app
+├── lgs/                     # Main Django app
 │   ├── models.py            # Database models
 │   ├── views.py             # View handlers
 │   ├── admin.py             # Django admin configuration
@@ -28,7 +28,7 @@ LGS_bot/
 ├── Dockerfile               # Main application Dockerfile
 ├── manage.py                # Django management script
 ├── requirements.txt         # Python dependencies
-└── db.sqlite3              # SQLite database
+└── db.sqlite3               # SQLite database
 ```
 
 ## Requirements
